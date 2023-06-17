@@ -1,0 +1,29 @@
+// program to swap 2 no.
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    //Declaring a,b,temp.
+    int a,b,temp;
+    
+    //display
+    cout<<"Type no. you wish to be swapped";
+    cin>>a>>b;
+    cout<<"a:"<<a<<endl;
+    cout<<"b:"<<b<<endl;
+    
+    //swapped
+    temp = a;
+    a = b;
+    b = temp;
+    
+    // display 2
+    cout<<"The number swapped:-"<<endl;
+    cout<<"a:"<<a<<endl;
+    cout<<"b:"<<b<<endl;
+    
+    return 0;
+    
+}
