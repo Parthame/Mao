@@ -17,3 +17,10 @@
         
         return 0;
     }
+
+
+
+// return opposite of that number
+    int opposite (int number) {
+        return -number;
+    }
