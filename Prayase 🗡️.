@@ -24,3 +24,23 @@
     int opposite (int number) {
         return -number;
     }
+
+
+/* Avg and sum */
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c,avg,sum;
+    cout << "enter the 3 no.";
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    
+    sum = a + b + c;
+    avg = sum/3;
+    
+    cout << "sum is:" << sum <<endl << "avg is:" << avg;
+    return 0;
+}
